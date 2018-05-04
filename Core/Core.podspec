@@ -10,12 +10,11 @@ Pod::Spec.new do |s|
   s.name         = "Core"
   s.version      = "0.0.1"
   s.summary      = "A short description of Core dafdsfsgsfdsfsdfsdfsdfdsfsdfsdfsdfsdfsd"
-  s.homepage     = "czvzcv"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  s.license      = "sdfdsf"
+  s.homepage     = "czvzcv" 
+
   s.author             = { "Милованов Андрей" => "milovanov@skbkontur.ru" }
-  s.platform     = :ios, "9.0"
-  s.source = { :git => "git@git.skbkontur.ru:milovanov/ios-local-pod.git" }
-  s.source_files  = "Core/**/*.swift"
+  #s.platform     = :ios, "9.0"
+  s.source = { :git => "https://github.com/doggka/Last.git" }
+  s.source_files  = "Core/Public/*.swift"
   #s.dependency "RxSwift"
 end

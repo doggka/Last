@@ -11,6 +11,8 @@
 		51CE9C6B209B49B70060961A /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C6A209B49B70060961A /* CoreTests.swift */; };
 		51CE9C6D209B49B70060961A /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CE9C5F209B49B70060961A /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51CE9C77209B4A460060961A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C76209B4A460060961A /* Test.swift */; };
+		51CE9C79209B4FAF0060961A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C76209B4A460060961A /* Test.swift */; };
+		51CE9C7B209C334F0060961A /* Wtf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C7A209C334F0060961A /* Wtf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,7 @@
 		51CE9C6A209B49B70060961A /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		51CE9C6C209B49B70060961A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CE9C76209B4A460060961A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		51CE9C7A209C334F0060961A /* Wtf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wtf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 				51CE9C78209B4CA50060961A /* Public */,
 				51CE9C5F209B49B70060961A /* Core.h */,
 				51CE9C60209B49B70060961A /* Info.plist */,
+				51CE9C7A209C334F0060961A /* Wtf.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -207,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CE9C77209B4A460060961A /* Test.swift in Sources */,
+				51CE9C7B209C334F0060961A /* Wtf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CE9C6B209B49B70060961A /* CoreTests.swift in Sources */,
+				51CE9C79209B4FAF0060961A /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
