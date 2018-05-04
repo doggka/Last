@@ -7,29 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51CE9C66209B49B70060961A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CE9C5C209B49B70060961A /* Core.framework */; };
-		51CE9C6B209B49B70060961A /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C6A209B49B70060961A /* CoreTests.swift */; };
 		51CE9C6D209B49B70060961A /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CE9C5F209B49B70060961A /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51CE9C77209B4A460060961A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C76209B4A460060961A /* Test.swift */; };
-		51CE9C79209B4FAF0060961A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C76209B4A460060961A /* Test.swift */; };
 		51CE9C7B209C334F0060961A /* Wtf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE9C7A209C334F0060961A /* Wtf.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		51CE9C67209B49B70060961A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 51CE9C53209B49B70060961A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 51CE9C5B209B49B70060961A;
-			remoteInfo = Core;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		51CE9C5C209B49B70060961A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CE9C5F209B49B70060961A /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		51CE9C60209B49B70060961A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51CE9C65209B49B70060961A /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CE9C6A209B49B70060961A /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		51CE9C6C209B49B70060961A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CE9C76209B4A460060961A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
@@ -41,14 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51CE9C62209B49B70060961A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51CE9C66209B49B70060961A /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				51CE9C5C209B49B70060961A /* Core.framework */,
-				51CE9C65209B49B70060961A /* CoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,24 +110,6 @@
 			productReference = 51CE9C5C209B49B70060961A /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		51CE9C64209B49B70060961A /* CoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51CE9C73209B49B70060961A /* Build configuration list for PBXNativeTarget "CoreTests" */;
-			buildPhases = (
-				51CE9C61209B49B70060961A /* Sources */,
-				51CE9C62209B49B70060961A /* Frameworks */,
-				51CE9C63209B49B70060961A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				51CE9C68209B49B70060961A /* PBXTargetDependency */,
-			);
-			name = CoreTests;
-			productName = CoreTests;
-			productReference = 51CE9C65209B49B70060961A /* CoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,9 +123,6 @@
 					51CE9C5B209B49B70060961A = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
-					};
-					51CE9C64209B49B70060961A = {
-						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
@@ -183,20 +139,12 @@
 			projectRoot = "";
 			targets = (
 				51CE9C5B209B49B70060961A /* Core */,
-				51CE9C64209B49B70060961A /* CoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		51CE9C5A209B49B70060961A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51CE9C63209B49B70060961A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,24 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51CE9C61209B49B70060961A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51CE9C6B209B49B70060961A /* CoreTests.swift in Sources */,
-				51CE9C79209B4FAF0060961A /* Test.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		51CE9C68209B49B70060961A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 51CE9C5B209B49B70060961A /* Core */;
-			targetProxy = 51CE9C67209B49B70060961A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		51CE9C6E209B49B70060961A /* Debug */ = {
@@ -408,44 +339,6 @@
 			};
 			name = Release;
 		};
-		51CE9C74209B49B70060961A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VEWAJ43QEN;
-				INFOPLIST_FILE = CoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.kontur.CoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		51CE9C75209B49B70060961A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VEWAJ43QEN;
-				INFOPLIST_FILE = CoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.kontur.CoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,15 +356,6 @@
 			buildConfigurations = (
 				51CE9C71209B49B70060961A /* Debug */,
 				51CE9C72209B49B70060961A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		51CE9C73209B49B70060961A /* Build configuration list for PBXNativeTarget "CoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51CE9C74209B49B70060961A /* Debug */,
-				51CE9C75209B49B70060961A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

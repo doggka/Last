@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.homepage     = "czvzcv" 
 
   s.author             = { "Милованов Андрей" => "milovanov@skbkontur.ru" }
-  #s.platform     = :ios, "9.0"
+  s.platform     = :ios, "9.0"
   s.source = { :git => "https://github.com/doggka/Last.git" }
-  s.source_files  = "Core/Public/*.swift"
+  s.source_files  = "Core/*/*.swift"
   #s.dependency "RxSwift"
 end
